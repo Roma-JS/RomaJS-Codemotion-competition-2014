@@ -1,0 +1,25 @@
+{
+  "name": "romajs-codemotion-competition-2014",
+  "version": "0.0.0",
+  "description": "Code competition organised by the RomaJS community for the Codemotion conference 2014",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/mocha -R spec test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:gillesruppert/romajs-codemotion-competition-2014.git"
+  },
+  "keywords": [
+    "javascript",
+    "competition",
+    "romajs",
+    "codemotion"
+  ],
+  "author": "Gilles Ruppert <gilles@madeofbytes.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^1.18.2"
+  }
+}
