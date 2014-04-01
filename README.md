@@ -12,7 +12,11 @@ output: 11
 The algorithm is as follows: if the number is followed by a larger number, its
 value is subtracted, else it is added.
 
-## Run the tests:
+## Install
+
+    npm install
+
+## Run the tests
 
     npm test
 
