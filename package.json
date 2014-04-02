@@ -4,7 +4,8 @@
   "description": "Code competition organised by the RomaJS community for the Codemotion conference 2014",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/.bin/mocha -R spec test/**/*.test.js"
+    "test": "mocha -R spec test/**/*.test.js",
+    "test-dev": "mocha -w -G test/**/*.test.js"
   },
   "repository": {
     "type": "git",

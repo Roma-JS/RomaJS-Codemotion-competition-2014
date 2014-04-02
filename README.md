@@ -20,6 +20,8 @@ value is subtracted, else it is added.
 
     npm test
 
+    npm run test-dev # run the tests with a watcher
+
 Winner is who:
 - passes tests
 - is fast
